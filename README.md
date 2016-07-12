@@ -73,6 +73,19 @@ http://svn.php.net/repository/pecl/pdo_4d/
 Notable Forks on github:  
 https://github.com/famsf/pecl-pdo-4d
 
+#### Example
+
+    <?php
+    $dsn = '4D:host=localhost;port=19812;charset=UTF-8';
+    $user = 'Administrator';
+    $pswd = 'test';
+    $db = new PDO($dsn, $user, $pswd);
+    $db->exec('CREATE TABLE IF NOT EXISTS myTable(id INT NOT NULL, value VARCHAR(100))');
+    unset($db);
+    echo 'done'; // if you see this then the code ran successfully
+    ?>
+
+
 \---  
 [back to top][0]
 
