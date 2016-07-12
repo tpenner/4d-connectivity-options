@@ -19,13 +19,12 @@ This is a list of Implementations for the [4D SQL Networking Protocol][1]:
 * C
   * [SQLlib_4D](#sqllib_4d)
 * PHP
-  * [ODBC](#odbc)
-    * PHP::ODBC
   * [PDO-4D](#pdo_4d)
+  * [ODBC](#odbc) -> PHP::ODBC
 * Python
-  * [ODBC](#odbc)
-    * PYODBC
   * [P4D](#p4d)
+  * [ODBC](#odbc) -> PYODBC
+
 
 
 ---
