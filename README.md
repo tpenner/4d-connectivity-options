@@ -3,15 +3,11 @@
 
 This repository holds a simple list of  options for connecting to 4D's SQL Server via the 4D SQL Networking Protocol from various programming environments.
 
----
-
 ## Specification
 
 The [4D SQL Networking Protocol][1] is defined on sources.4d.com and is available [here][1]
 
 [1]: http://sources.4d.com/trac/4d_pdo4d/raw-attachment/wiki/WikiStart/SQL%20networking%20protocol.doc
-
----
 
 ## Implementations
 
@@ -26,7 +22,9 @@ This is a list of Implementations for the [4D SQL Networking Protocol][1]:
   * [P4D](#p4d)
   * [ODBC](#odbc) -> PYODBC
 
-[top][0]
+
+\---  
+[back to top][0]
 
 ---
 
@@ -39,7 +37,8 @@ Open Database Connectivity (ODBC) drivers are provided by 4D for Windows and Mac
 Download the ODBC drivers from the official 4D download page.  
 http://www.4d.com/downloads/products.html
 
-[top][0]
+\---  
+[back to top][0]
 
 ---
 
@@ -49,7 +48,8 @@ http://www.4d.com/downloads/products.html
 
 https://github.com/ibrewster/p4d
 
-[top][0]
+\---  
+[back to top][0]
 
 ---
 
@@ -73,7 +73,8 @@ http://svn.php.net/repository/pecl/pdo_4d/
 Notable Forks on github:  
 https://github.com/famsf/pecl-pdo-4d
 
-[top][0]
+\---  
+[back to top][0]
 
 ---
 
@@ -85,6 +86,7 @@ https://github.com/4D/SQLlib_4D
 Notable Forks on github:  
 https://github.com/ibrewster/SQLlib_4D
 
-[top][0]
+\---  
+[back to top][0]
 
 ---
